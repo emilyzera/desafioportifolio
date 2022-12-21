@@ -1,0 +1,286 @@
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #22212c;
+  display: grid;
+  grid-template-areas:
+    "profile projetos projetos"
+    "profile card1 card2"
+    "contato informacoes informacoes"
+    "tecnologias informacoes informacoes";
+  grid-template-rows: 100px 300px 300px 200px;
+  grid-template-columns: 400px 740px 740px;
+}
+
+a {
+  text-decoration: none;
+  color: #cb92b1;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#avatar {
+  border-radius: 50%;
+  border: rgb(230, 22, 192) solid 2px;
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+#avatar:hover {
+  box-shadow: 0 8px 16px 18px rgb(255, 0, 225);
+}
+
+.profile {
+  grid-area: profile;
+  background-color: #302f3d;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.contato {
+  grid-area: contato;
+  background-color: #302f3d;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#github {
+  margin: 20px;
+}
+
+#github:hover {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+#instagram {
+  margin: 20px;
+}
+
+#instagram:hover {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+  width: 102px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+#email {
+  margin: 20px;
+}
+
+#email:hover {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+#phone {
+  margin: 20px;
+}
+
+#phone:hover {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+  width: 92px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.tecnologias {
+  grid-area: tecnologias;
+  background-color: #302f3d;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.projects {
+  grid-area: projetos;
+  background-color: #302f3d;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#div1 {
+  font-size: 48px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.informacoes {
+  grid-area: informacoes;
+  background-color: #302f3d;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card1 {
+  grid-area: card1;
+  background-color: #302f3d;
+  margin: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card2 {
+  grid-area: card2;
+  background-color: #302f3d;
+  margin: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#tec1 {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  margin: 2px;
+  padding: 5px;
+  width: 92px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#tec2 {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  margin: 3px;
+  padding: 5px;
+  width: 92px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#tec3 {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  margin: 2px;
+  padding: 5px;
+  width: 92px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#tec4 {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  margin: 2px;
+  padding: 5px;
+  width: 92px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#tec5 {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  margin: 2px;
+  padding: 5px;
+  width: 92px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
+  left: 0px;
+}
+
+#tec6 {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  margin: 2px;
+  padding: 5px;
+  width: 92px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
+
+#tec7 {
+  background-color: rgb(197, 29, 183);
+  color: white;
+  margin: 2px;
+  padding: 5px;
+  width: 92px;
+  height: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.foto {
+  border-radius: 20px;
+}
+.foto:hover {
+  box-shadow: 0 8px 16px 18px rgb(255, 0, 225);
+}
+
+.imlo {
+  position: absolute;
+  left: 670px;
+  top: 160px;
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+}
+.imlo:hover {
+  box-shadow: 0 8px 16px 18px rgb(255, 0, 225);
+}
+
+.harry {
+  position: absolute;
+  left: 1450px;
+  top: 160px;
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+}
+.harry:hover {
+  box-shadow: 0 8px 16px 18px rgb(255, 0, 225);
+}
